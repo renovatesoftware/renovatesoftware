@@ -1,0 +1,15 @@
+{
+  "title": "Others",
+  "blog": [
+    {
+      "title": "How to install Visual Studio Code in Ubuntu 18.04?",
+      "url": "vscode",
+      "date_time": "15-July-2018",
+      "description": [
+        "<p>The easiest way to install Ubuntu based distributions is to <mark><a href=\"https: //code.visualstudio.com/download\" target=\"_blank\">download</a></mark> and install the .deb package (64-bit) either through the graphical software center if it's available or through the command line with:</p>",
+        "<pre><code>$ sudo dpkg -i code_1.25.1-1531323788_amd64.deb \n$ sudo apt-get install -f # Install dependencies</code></pre>",
+        "<p>Installing the .deb package will automatically install the apt repository and signing key to enable auto-updating using the regular system mechanism.</p>"
+      ]
+    }
+  ]
+}

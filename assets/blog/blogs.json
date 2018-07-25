@@ -1,0 +1,12 @@
+{
+  "blogs" : [
+    { "label" : "Java", "file": "java" },
+    { "label" : "Angular", "file": "angular" },
+    { "label" : "Python", "file": "python" },
+    { "label" : "Node.js", "file": "nodejs" },
+    { "label" : "Mongodb", "file": "mongodb" },
+    { "label" : "Android", "file": "android" },
+    { "label" : "Other", "file": "other" }
+  ]
+}
+
