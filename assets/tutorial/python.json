@@ -2,49 +2,76 @@
   "tutorial": [
     {
       "topic": "Introduction",
-      "description": "",
       "data": [
         {
-          "heading": "What is Python?",
-          "description": "Python is a general purpose, dynamic, high level and interpreted programming language. It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.<br><br>Python is easy to learn yet powerful and versatile scripting language which makes it attractive for Application Development.<br><br>Python's syntax and dynamic typing with its interpreted nature, makes it an ideal language for scripting and rapid application development.<br><br>Python supports multiple programming pattern, including object oriented, imperative and functional or procedural programming styles.<br><br>Python is not intended to work on special area such as web programming. That is why it is known as multipurpose because it can be used with web, enterprise, 3D CAD etc.<br><br>We don't need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.<br><br>Python makes the development and debugging fast because there is no compilation step included in python development and edit-test-debug cycle is very fast."
+          "heading": "Python Introduction",
+          "description": [
+            "<p>Welcome to interactive Python tutorial. Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language.</p><br>",
+            "<h3>What is Python?</h3><p>Python is a general purpose, dynamic, high level and interpreted programming language.</p>",
+            "<p>According to its creator, Guido van Rossum : </p><h4>“Python is a high-level programming language, and its core design philosophy is all about code readability and a syntax which allows programmers to express concepts in a few lines of code.”</h4>",
+            "<p>Python supports multiple programming pattern, including object oriented, imperative and functional or procedural programming styles.</p>"
+          ]
+        },
+        {
+          "heading": "Python History",
+          "description": [
+            "<p>Python was conceived in the late 1980s, and its implementation began in December 1989 by <b>Guido van Rossum</b> at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL) capable of exception handling and interfacing with the Amoeba operating system.</p>",
+            "<p>In February 1991, Van Rossum published the code (labeled version 0.9.0) to alt.sources.</p>",
+            "<p>In 1994, Python 1.0 was released with new features like: lambda, map, filter, and reduce.</p>",
+            "<p>Python 2.0 added new features like: list comprehensions, garbage collection system.</p>",
+            "<p>On December 3, 2008, Python 3.0 (also called \"Py3K\") was released. It was designed to rectify fundamental flaw of the language.</p>",
+            "Python is influenced by following programming languages:<ul><li>ABC language</li><li>Modula-3</li></ul>"
+          ]
         },
         {
           "heading": "Python Features",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
+          "description": [
+            "<p>Python provides lots of features that are listed below.</p>",
+            "<h4>1) Easy to Learn and Use</h4><p>Python is easy to learn and use. It is developer-friendly and high level programming language.</p>",
+            "<h4>2) Expressive Language</h4><p>Python language is more expressive means that it is more understandable and readable.</p>",
+            "<h4>3) Interpreted Language</h4><p>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.</p>",
+            "<h4>4) Cross-platform Language</h4><p>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.</p>",
+            "<h4>5) Free and Open Source</h4><p>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.</p>",
+            "<h4>6) Object-Oriented Language</h4><p>Python supports object oriented language and concepts of classes and objects come into existence.</p>",
+            "<h4>7) Extensible</h4><p>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.</p>",
+            "<h4>8) Large Standard Library</h4><p>Python has a large and broad library and prvides rich set of module and functions for rapid application development.</p>",
+            "<h4>9) GUI Programming Support</h4><p>Graphical user interfaces can be developed using Python.</p>",
+            "<h4>10) Integrated</h4><p>It can be easily integrated with languages like C, C++, JAVA etc.</p>"
+          ]
         },
         {
-          "heading": "Python Control",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
-        },
+          "heading": "Python Applications",
+          "description": [
+            "<p>Python is known for its general purpose nature that makes it applicable in almost each domain of software development. Python as a whole can be used in any sphere of development.</p>",
+            "<p>Here, we are specifing applications areas where python can be applied.</p>",
+            "<ol><li>Web Applications</li><li>Desktop GUI Applications</li><li>Software Development</li><li>Scientific and Numeric</li><li>Business Applications</li><li>Console Based Application</li><li>Audio or Video based Applications</li><li>3D CAD Applications</li><li>Enterprise Applications</li><li>Applications for Images</li></ol>",
+            "<p>There are several such applications which can be developed using Python.</p>"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Get Started",
+      "data": [
         {
-          "heading": "Python String",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
+          "heading": "Python Hello World!",
+          "description": [
+            "<p>Python is easy to learn and code and can be execute with python interpreter. We can also use Python interactive shell to test python code immediately.</p>",
+            "<p>A simple hello world example is given below. Write below code in a file and save with .py extension.</p>",
+            "<p><b>hello.py</b></p>",
+            "<code>print(\"Hello, World!\")</code><br>",
+            "<p><b>Note :</b> Python source file has .py extension.</p>"
+          ]
         }
       ]
     },
     {
       "topic": "Control Statement",
-      "description": "",
+      "description": [],
       "data": [
         {
-          "heading": "What is Python?",
-          "description": "Python is a general purpose, dynamic, high level and interpreted programming language. It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.<br><br>Python is easy to learn yet powerful and versatile scripting language which makes it attractive for Application Development.<br><br>Python's syntax and dynamic typing with its interpreted nature, makes it an ideal language for scripting and rapid application development.<br><br>Python supports multiple programming pattern, including object oriented, imperative and functional or procedural programming styles.<br><br>Python is not intended to work on special area such as web programming. That is why it is known as multipurpose because it can be used with web, enterprise, 3D CAD etc.<br><br>We don't need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.<br><br>Python makes the development and debugging fast because there is no compilation step included in python development and edit-test-debug cycle is very fast."
-        },
-        {
-          "heading": "Python Features",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
-        },
-        {
-          "heading": "Python Control",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
-        },
-        {
           "heading": "Python String",
-          "description" : "Python provides lots of features that are listed below.<br><br><h3>1) Easy to Learn and Use</h3>Python is easy to learn and use. It is developer-friendly and high level programming language.<br><br><h3>2) Expressive Language</h3>Python language is more expressive means that it is more understandable and readable.<br><br><h3>3) Interpreted Language</h3>Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.<br><br><h3>4) Cross-platform Language</h3>Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.<br><br><h3>5) Free and Open Source</h3>Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.<br><br><h3>6) Object-Oriented Language</h3>Python supports object oriented language and concepts of classes and objects come into existence.<br><br><h3>7) Extensible</h3>It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.<br><br><h3>8) Large Standard Library</h3>Python has a large and broad library and prvides rich set of module and functions for rapid application development.<br><br><h3>9) GUI Programming Support</h3>Graphical user interfaces can be developed using Python.<br><br><h3>10) Integrated</h3>It can be easily integrated with languages like C, C++, JAVA etc."
-        },
-        {
-          "heading": "Python List",
-          "description" : "Python provides lots of features that are listed below.Python provides lots of features that are listed below.Python provides lots of features that are listed below.Python provides lots of features that are listed below."
+          "description": []
         }
       ]
     },
