@@ -8,7 +8,7 @@
           "description": [
             "<p>Welcome to interactive Python tutorial. Whether you are an experienced programmer or not, this website is intended for everyone who wishes to learn the Python programming language.</p><br>",
             "<h3>What is Python?</h3><p>Python is a general purpose, dynamic, high level and interpreted programming language.</p>",
-            "<p>According to its creator, Guido van Rossum : </p><h4>“Python is a high-level programming language, and its core design philosophy is all about code readability and a syntax which allows programmers to express concepts in a few lines of code.”</h4>",
+            "<p>According to its creator, Guido van Rossum : </p><h4>“Python is a high-level programming language, and its core design philosophy is all about code readability and a syntax which allows programmers to express concepts in a few lines of code.”</h4><br>",
             "<p>Python supports multiple programming pattern, including object oriented, imperative and functional or procedural programming styles.</p>"
           ]
         },
