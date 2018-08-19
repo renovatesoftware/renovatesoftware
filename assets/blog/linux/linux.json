@@ -1,0 +1,16 @@
+{
+  "title": "Linux",
+  "blog": [
+    {
+      "heading": "How to shift side bar (Ubuntu dock) to bottom on Ubuntu 18.4 and later",
+      "date_time": "19-Aug-2018",
+      "image": "./assets/blog/linux/img/1.png",
+      "description": [
+        "<h4>To shift side bar to bottom, execute following steps: </h4>",
+        "<ol><li>Go to System Settings.</li><li>Select Dock from the Left Sidebar.</li><li>At option \"Position on screen\", select menu option \"Bottom\" to move launcher at bottom.</li></ol>",
+        "<img class=\"img-fluid mt-3 mb-3\" src=\"./assets/blog/linux/img/2.png\">",
+        "<p>That's done!</p>"
+      ]
+    }
+  ]
+}

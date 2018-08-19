@@ -1,8 +1,8 @@
 {
-  "title": "Others",
+  "title": "Visual Studio Code",
   "blog": [
     {
-      "title": "How to install Visual Studio Code in Ubuntu 18.04?",
+      "heading": "How to install Visual Studio Code in Ubuntu 18.04?",
       "url": "vscode",
       "date_time": "15-July-2018",
       "description": [

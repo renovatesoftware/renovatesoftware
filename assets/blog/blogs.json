@@ -1,12 +1,13 @@
 {
   "blogs" : [
-    { "label" : "Java", "file": "java" },
-    { "label" : "Angular", "file": "angular" },
-    { "label" : "Python", "file": "python" },
-    { "label" : "Node.js", "file": "nodejs" },
-    { "label" : "Mongodb", "file": "mongodb" },
-    { "label" : "Android", "file": "android" },
-    { "label" : "Other", "file": "other" }
+    { "title": "Java", "link" : "java", "file": "java.json" },
+    { "title": "Angular", "link" : "angular", "file": "angular.json" },
+    { "title": "Python", "link" : "python", "file": "python.json" },
+    { "title": "Node.js", "link" : "nodejs", "file": "nodejs.json" },
+    { "title": "Mongodb", "link" : "mongodb", "file": "mongodb.json" },
+    { "title": "Android", "link" : "android", "file": "android.json" },
+    { "title": "Linux", "link" : "linux", "file": "linux/linux.json" },
+    { "title": "Visual Studio Code", "link" : "vscode", "file": "vscode.json" }
   ]
 }
 

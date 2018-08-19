@@ -2,20 +2,12 @@
   "title": "Node.js",
   "blog": [
     {
-      "title": "How to install Node.js in Ubuntu 18.04?",
+      "heading": "How to install Node.js in Ubuntu 18.04?",
       "date_time": "16-July-2018",
       "description": [
         "<p>The easiest way to download & install node.js from the console :</p>",
         "<pre><code>$ wget http://nodejs.org/dist/v8.13.4/node-v8.13.4-linux-x64.tar.gz\n$ sudo tar -C /usr/local --strip-components 1 -xzf node-v8.1.1-linux-x64.tar.gz</code></pre>",
         "<p>To check node.js installed, issue command:</p>",
-        "<code>$ node -v</code>"
-      ]
-    },
-    {
-      "title": "How to install Node.js in Ubuntu 18.04?",
-      "date_time": "16-July-2018",
-      "description": [
-        "<p>The easiest way to download & install node.js from the console :</p>",
         "<code>$ node -v</code>"
       ]
     }

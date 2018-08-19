@@ -2,7 +2,7 @@
   "title": "Mongodb",
   "blog": [
     {
-      "title": "How to install Mongodb in Ubuntu 18.04?",
+      "heading": "How to install Mongodb in Ubuntu 18.04?",
       "url": "mongodb",
       "date_time": "14-July-2018",
       "description": [
