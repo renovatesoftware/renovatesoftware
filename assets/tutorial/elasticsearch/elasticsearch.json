@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "heading": "Elasticsearch Introduction",
+      "description": [
+        "<p>Elasticsearch is a search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.</p>",
+        "<h4>What is Elasticsearch?</h4>",
+        "<p>Elasticsearch is a highly scalable full-text search and analytics engine. It allows you to store, search, and analyze big volumes of data quickly and in near real time.</p>",
+        "<p>It is developed in Java and is an open source released under Apache License.</p>"
+      ]
+    },
+    {
+      "heading": "Elasticsearch Features",
+      "description": [
+        "<ol>",
+        "<li><h3>Lightweight : </h3> Spring Framework is lightweight with respect to size and transparency.</li>",
+        "<li><h3>Versatile : </h3> We can integrate any technologies with spring , so we can say spring is versatile.</li>",
+        "<li><h3>Inversion Of Control (IOC) : </h3> In Spring Framework, loose coupling is achieved using Inversion of Control. The objects give their own dependencies instead of creating or looking for dependent objects.</li>",
+        "<li><h3>Aspect Oriented Programming (AOP) : </h3> By separating application business logic from system services, Spring Framework supports Aspect Oriented Programming and enables cohesive development.</li>",
+        "<li><h3>Container : </h3> Spring Framework creates and manages the life cycle and configuration of application objects.</li>",
+        "<li><h3>MVC Framework : </h3> Spring Framework is a MVC web application framework. This framework is configurable via interfaces and accommodates multiple view technologies.</li>",
+        "<li><h3>Transaction Management : </h3> For transaction management, Spring framework provides a generic abstraction layer. It is not tied to J2EE environments and it can be used in container-less environments.</li>",
+        "<li><h3>JDBC Exception Handling : </h3> The JDBC abstraction layer of the Spring Framework offers an exception hierarchy, which simplifies the error handling strategy.</li>",
+        "</ol>"
+      ]
+    },
+    {
+      "heading": "Python String",
+      "description": []
+    }
+  ]
+}

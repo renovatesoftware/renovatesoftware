@@ -1,0 +1,21 @@
+{
+    "title": "Windows",
+    "blog": [
+      {
+        "heading": "How to Create a bootable Ubuntu USB stick on Windows?",
+        "date_time": "31-Aug-2018",
+        "description": [
+          "<p>With a bootable Ubuntu USB stick, you can:</p>",
+          "<ol><li>Install or upgrade Ubuntu</li><li>Test out the Ubuntu desktop experience without touching your PC configuration</li><li>Boot into Ubuntu on a borrowed machine or from an internet cafe</li><li>Use tools installed by default on the USB stick to repair or fix a broken configuration</li></ol>",
+          "<p>Creating a bootable Ubuntu USB stick from Microsoft Windows is very simple and we're going to cover the process in the next few steps.</p>",
+          "<h4>Steps :</h4>",
+          "<ol>",
+          "<li>Download An Ubuntu ISO file & Rufus ( <a href=\"https://rufus.akeo.ie/\" target=\"_blank\">https://rufus.akeo.ie/</a> ), a free and open source USB stick writing tool</li>",
+          "<li>Perform the following to configure your USB device in Rufus : <ol type=\"a\">",
+          "<li>Launch Rufus</li><li>Insert your USB stick</li><li>Rufus will update to set the device within the Device field</li><li>If the Device is incorrect, select the correct one from the device field's drop-down menu</li><li>Select the Ubuntu ISO file from the Boot selection field's drop-down menu.</li><li>Leave all other parameters with their default values and click Start to initiate the write process.</li><li>Keep Write in ISO Image mode selected and click on OK to continue.</li><li>Rufus will warn that all data on your selected USB device is about to be destroyed. This is a good moment to double check you've selected the correct device before clicking OK when you're confident you have.</li><li>The ISO will now be written to your USB stick, and the progress bar in Rufus will give you some indication of how long this will take. With a reasonably modern machine, this should take around 3 minutes.<li>Rufus will complete the write process and silently drop-back to its default window.</li></ol>",
+          "</ol>",
+          "<p>Congratulations! You now have Ubuntu on a USB stick, bootable and ready to go.</p>"
+        ]
+      }
+    ]
+  }

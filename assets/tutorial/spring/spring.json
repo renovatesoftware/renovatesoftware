@@ -1,0 +1,140 @@
+{
+  "tutorial": [
+    {
+      "topic": "Spring Introduction",
+      "data": [
+        {
+          "heading": "Spring Introduction",
+          "description": [
+            "<p>Spring is the most popular open source Java application framework. It was designed to simplify Java EE development and make developers more productive.</p>",
+            "<p>Spring is lightweight when it comes to size and transparency. The basic version of Spring framework is around 2MB.</p>",
+            "<p>It was developed by <b>Rod Johnson</b> in 2003.</p>",
+            "<h4>What is Spring?</h4>",
+            "<p>Spring is a Java based open source framework. It is light weight, loosely coupled, aspect oriented framework. We can develop standalone applications, web applications, distributed applications and enterprise applications & etc using spring framework.</p>",
+            "<p>It can be thought of as a framework of frameworks because it provides support to various frameworks such as Struts, Hibernate, Tapestry, EJB, JSF etc.</p>",
+            "<p>The Spring framework comprises several modules such as IOC, AOP, DAO, Context, ORM, WEB MVC etc. We will learn these modules in next page.</p>"
+          ]
+        },
+        {
+          "heading": "Spring Features",
+          "description": [
+            "<ul>",
+            "<li><h4>Supports POJO and POJI</h4><p>POJO means Plain Old Java Object. If a java class is not extending or implementing predefined classes or interfaces of Spring API then its called as POJO. Spring framework supports POJO.</p><p>POJI means Plain Old Java Interface. If a interface is not extending predefined interface of Spring API then its called as POJI. Spring framework supports POJI.</p></li>",
+            "<li><h4>Light weight</h4><p>Most of the spring applications can be executed without heavy weight Web/Application Server. Spring framework comes with modular approach.</p><p>Spring framework as a whole is divided into various modules such as Spring Core, Spring JDBC, Spring MVC, Spring Data, Spring ORM, etc. whichever you want and just include library into the project classpath. For example, since you can use Spring JDBC without using Spring MVC.</li>",
+            "<li><h4>Versatile</h4><p>We can integrate any technologies with spring , so we can say spring is versatile.</p></li>",
+            "<li><h4>Built-in Middleware Services</h4><p>Spring framework gives built-in middleware services, it allows to work with server managed and third party middle-ware services. Spring gives new methodology called AOP to apply middleware services.</p></li>",
+            "<li><h4>Dependency Injection</h4><p>Spring framework supports both dependency injection and dependency look up. It supports the loose coupling between the objects.</p><p> Dependency Injection is a core design pattern of Spring framework on which dependency of object is injected by framework rather than created by Object itself. One of the implementation of DI is Inversion of Control (IOC) on which framework like Spring controls object’s dependency.</p><p> There are mainly two types of Dependency Injection: Constructor Injection and Setter Injection.</p></li>",
+            "<li><h4>Aspect Oriented Programming (AOP)</h4><p>By separating application business logic from system services, Spring Framework supports Aspect Oriented Programming and enables cohesive development.</p></li>",
+            "<li><h4>Container</h4><p>Spring Framework creates and manages the life cycle and configuration of application objects.</p></li>",
+            "<li><h4>MVC Framework</h4><p>Spring Framework is a MVC web application framework. This framework is configurable via interfaces and accommodates multiple view technologies.</p></li>",
+            "<li><h4>Transaction Management</h4><p>For transaction management, Spring framework provides a generic abstraction layer. It is not tied to J2EE environments and it can be used in container-less environments.</p></li>",
+            "<li><h4>Built-in Plugins</h4><p>Spring framework provides built-in plugins to make spring application to integrate with other java technology based applications.</p></li>",
+            "<li><h4>JDBC Exception Handling</h4><p>The JDBC abstraction layer of the Spring Framework offers an exception hierarchy, which simplifies the error handling strategy.</p></li>",
+            "</ul>"
+          ]
+        },
+        {
+          "heading": "Spring Architecture",
+          "description": [
+            "<p>Spring is a framework that is based on two concepts</p>",
+            "<ul><li>IOC (Inversion of Control)</li><li>AOP (Aspect Oriented Programming)</li></ul>",
+            "<p>As a Framework, Spring is not confined to any specific type of applications or any specific domain. It can be used in a console application, in a Windows Application, in a Web Application, in an Enterprise Application etc.</p>",
+            "<p>Spring Framework is a collection of interdependent modules which can be used collectively or in parts.</p>",
+            "<img class=\"img-fluid mt-2 mb-3\" src=\"/assets/tutorial/spring/img/spring-overview.png\">",
+            "<p>Major modules of this framework are –</p>",
+            "<ul>",
+            "<li><h4>IOC</h4><p>This is the core module of the framework which represents basic implementation of an IOC container.</p></li>",
+            "<li><h4>Context</h4><p>This module is built over IOC & represents an advance implementation of IOC container.</p></li>",
+            "<li><h4>AOP</h4><p>This module is built over context & provides basic infrastructure for Aspect Oriented Programming.</p></li>",
+            "<li><h4>Tx</h4><p>This module provides the facility of declarative transaction management.</p></li>",
+            "<li><h4>JDBC Template</h4><p>This module provides an implementation of Template Design Pattern for simplifying JDBC operations.</p></li>",
+            "<li><h4>ORM</h4><p>This module provides an implementation of Spring Applications with ORM framework such as Hibernate, Toplink, Ibatis etc.</p></li>",
+            "<li><h4>WEB</h4><p>This module is built over AOP & provides implementation of common task such as transfer of request parameters to domain objects, type conversion file uploading & downloading etc.</p></li>",
+            "<li><h4>Web MVC</h4><p>This module provides an implementation of MVC pattern for developing Web Applications.</p></li>",
+            "<li><h4>Web Integration</h4><p>This module facilitate integration of Spring Applications with third party MVC applications such as Struts.</p></li>",
+            "<li><h4>Enterprise Integration</h4><p>This module provides the facility of integrating Enterprise services such as JMS, JNDI, Java Mail etc. of Spring Applications.</p></li>",
+            "<li><h4>Testing</h4><p>This module facilitate integration & unit testing.</p></li>",
+            "</ul>"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Spring Getting Started",
+      "description": "",
+      "data": [
+        {
+          "heading": "Environment Setup",
+          "description": ""
+        },
+        {
+          "heading": "Hello World Example",
+          "description": ""
+        },
+        {
+          "heading": "Python Control",
+          "description": "P"
+        },
+        {
+          "heading": "Python String",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "topic": "OOPs",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Strings",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "List",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Tuples",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Dictionary",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Functions",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "File I/O",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Modules",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Exceptions",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Date",
+      "description": "",
+      "data": []
+    },
+    {
+      "topic": "Programs",
+      "description": "",
+      "data": []
+    }
+  ]
+}

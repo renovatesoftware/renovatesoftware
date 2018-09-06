@@ -1,0 +1,13 @@
+{
+  "title": "C Program",
+  "blog": [
+    {
+      "heading": "C Program to Find Factorial of a Number",
+      "date_time": "20-Aug-2018",
+      "description": [
+        "<pre><code>#include <stdio.h>int main() { int num = 5, fact = 1; while(num > 1) { fact = fact * num; num--; } printf(\"\n\n Factorial of 5 = %d \n\n\", fact); return 0; }</code></pre>",
+        "<code>class Simple{public static void main(String args[]){System.out.println(\"Hello Java\");}}</code>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Google",
+    "blog": [
+      {
+        "heading": "How to embed Google Form in your website?",
+        "date_time": "31-Aug-2018",
+        "description": [
+          "<p>Embedding a Google Form on your public website is easy. Here are the steps to follow:</p>",
+          "<p><b>Step 1.</b> Create your form and build it.</p>",
+          "<p><b>Step 2.</b> Click on “Send” button on top of form window and a dialog box opned.</p>",
+          "<p><b>Step 3.</b> Copy embed html text and place wherever you would like on your website, and any visitor should be able to fill it out.</p>",
+          "<img class=\"img-fluid\" src=\"/assets/blog/google/img/contactus-form.png\" />"
+        ]
+      }
+    ]
+  }

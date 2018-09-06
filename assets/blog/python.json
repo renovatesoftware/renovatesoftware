@@ -1,5 +1,19 @@
 {
   "title": "Python",
   "blog": [
+    {
+      "heading": "How to tell ubuntu to use python 3.6 instead of 2.7?",
+      "date_time": "31-Aug-2018",
+      "description": [
+        "<p>Running a script, you can specify the python version to use by using either:</p>",
+        "<code>$ python script.py</code>",
+        "<p class=\"mt-2\">or</p>",
+        "<code>$ python3 script.py</code><br>",
+        "<p>If the script or application is executable, and you run it without the python (either 2 or 3) command, you need to have the shebang in your script, in which you define the python version to use; either:</p>",
+        "<code>$ #!/usr/bin/env python</code>",
+        "<p class=\"mt-2\">or</p>",
+        "<code>$ #!/usr/bin/env python3</code>"
+      ]
+    }
   ]
 }
